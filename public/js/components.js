@@ -5,6 +5,13 @@ const LOCAL_FALLBACK = "/mnt/data/sa.png";
 
 // Categories Data (using Unsplash URLs)
 const categories = [
+        {
+        name: 'Artificial Intelligence',
+        courses: "4+",
+        image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995',
+        link: 'ai.html'
+    },
+    
     {
         name: 'Business',
         courses: "4+",
@@ -12,12 +19,7 @@ const categories = [
         link: 'business.html' // 👉 when clicked, go to business page
     },
     
-    {
-        name: 'Artificial Intelligence',
-        courses: "4+",
-        image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995',
-        link: 'ai.html'
-    },
+
     
     {
         name: 'Data Science',
