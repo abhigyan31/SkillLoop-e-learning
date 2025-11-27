@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillLoop | Learn Data Science</title>
+
+    <!-- Main site stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Data Science page specific stylesheet -->
+    <link rel="stylesheet" href="css/data-science.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">
+                <div class="logo-circle">
+                    <span class="logo-wave">~</span>
+                </div>
+                <span class="brand-text">SkillLoop</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#courses" class="nav-link">Courses</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="ds-main">
+        <!-- HERO SECTION -->
+        <section class="ds-hero" id="home">
+            <div class="container ds-hero-container">
+                <div class="ds-hero-content">
+                    <h1>Learn Data Science from the Ground Up</h1>
+                    <p>
+                        Understand how to collect, clean, analyze and visualize data using
+                        tools and concepts that are widely used in the real world.
+                    </p>
+                    <div class="ds-hero-actions">
+                        <a href="#videos" class="btn primary-btn">Start Learning Data Science</a>
+                        <a href="#courses" class="btn ghost-btn">Explore DS Paths</a>
+                    </div>
+                    <div class="ds-hero-meta">
+                        <span>✔ Beginner friendly</span>
+                        <span>✔ Real datasets & examples</span>
+                        <span>✔ Python-focused workflow</span>
+                    </div>
+                </div>
+
+                <div class="ds-hero-card">
+                    <h2>Featured Lesson</h2>
+                    <p>What is Data Science?</p>
+                    <div class="ds-video-wrapper">
+                        <iframe
+                            src="https://www.youtube.com/embed/X3paOmcrTjQ"
+                            title="What is Data Science?"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <a href="https://www.youtube.com/watch?v=X3paOmcrTjQ"
+                       target="_blank"
+                       class="inline-link">
+                        Watch on YouTube ↗
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY SECTION -->
+        <section class="ds-section ds-features" id="about">
+            <div class="container">
+                <h2 class="section-title">Why Learn Data Science with SkillLoop?</h2>
+                <p class="section-subtitle">
+                    Move from “I like numbers” to “I can tell stories with data” using simple,
+                    structured lessons designed for students.
+                </p>
+
+                <div class="ds-features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Real-World Data</h3>
+                        <p>Work with examples inspired by finance, marketing, product and more.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🐍</div>
+                        <h3>Python & Libraries</h3>
+                        <p>Understand how tools like NumPy, Pandas and Matplotlib fit together.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📈</div>
+                        <h3>Visual Storytelling</h3>
+                        <p>Learn to create charts that actually explain your insights clearly.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Career Skills</h3>
+                        <p>Build intuition that helps with internships, projects and interviews.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DATA SCIENCE PATHS -->
+        <section class="ds-section ds-paths" id="courses">
+            <div class="container">
+                <h2 class="section-title">Data Science Learning Paths</h2>
+                <p class="section-subtitle">
+                    Follow a full path or mix and match topics based on what you need right now.
+                </p>
+
+                <div class="ds-paths-grid">
+                    <div class="path-card">
+                        <h3>Foundations of Data</h3>
+                        <p>Start with the basic ideas behind data analysis.</p>
+                        <ul>
+                            <li>Types of data & datasets</li>
+                            <li>Descriptive statistics</li>
+                            <li>Asking the right questions</li>
+                        </ul>
+                    </div>
+                    <div class="path-card">
+                        <h3>Python for Data Science</h3>
+                        <p>Use Python as your main tool for working with data.</p>
+                        <ul>
+                            <li>Jupyter notebooks basics</li>
+                            <li>NumPy & Pandas essentials</li>
+                            <li>Working with CSV files</li>
+                        </ul>
+                    </div>
+                    <div class="path-card">
+                        <h3>Data Visualization</h3>
+                        <p>Turn raw numbers into understandable graphs and dashboards.</p>
+                        <ul>
+                            <li>Bar, line, scatter plots</li>
+                            <li>Choosing the right chart</li>
+                            <li>Visual best practices</li>
+                        </ul>
+                    </div>
+                    <div class="path-card">
+                        <h3>Intro to Machine Learning</h3>
+                        <p>See how models learn patterns from data to make predictions.</p>
+                        <ul>
+                            <li>Train / test splits</li>
+                            <li>Classification vs regression</li>
+                            <li>Simple ML workflows</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIDEO LESSONS -->
+        <section class="ds-section ds-videos" id="videos">
+            <div class="container">
+                <h2 class="section-title">Free Data Science Video Lessons</h2>
+                <p class="section-subtitle">
+                    Short videos that give you a quick but solid intuition for what data science involves.
+                </p>
+
+                <div class="ds-videos-grid">
+                    <article class="video-card">
+                        <h3>What is Data Science?</h3>
+                        <p>A simple, big-picture overview of the field and common roles.</p>
+                        <a href="https://www.youtube.com/watch?v=X3paOmcrTjQ"
+                           target="_blank"
+                           class="btn link-btn">
+                            Watch Lesson
+                        </a>
+                    </article>
+
+                    <article class="video-card">
+                        <h3>Python for Data Analysis</h3>
+                        <p>See how Python and Pandas are used to explore data in practice.</p>
+                        <a href="https://www.youtube.com/watch?v=r-uOLxNrNk8"
+                           target="_blank"
+                           class="btn link-btn">
+                            Watch Lesson
+                        </a>
+                    </article>
+
+                    <article class="video-card">
+                        <h3>Intro to Machine Learning</h3>
+                        <p>An intuitive walkthrough of how ML models learn from data.</p>
+                        <a href="https://www.youtube.com/watch?v=Gv9_4yMHFhI"
+                           target="_blank"
+                           class="btn link-btn">
+                            Watch Lesson
+                        </a>
+                    </article>
+
+                    <article class="video-card">
+                        <h3>Data Visualization Basics</h3>
+                        <p>Learn how to turn raw tables into understandable charts.</p>
+                        <a href="https://www.youtube.com/watch?v=Q8VxGrrC2C4"
+                           target="_blank"
+                           class="btn link-btn">
+                            Watch Lesson
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRUSTED SECTION -->
+        <section class="ds-section ds-trusted">
+            <div class="container">
+                <h2 class="section-title">Learn the Language of Data</h2>
+                <p class="section-subtitle">
+                    Build skills that are useful across business, tech, research, and almost every modern career path.
+                </p>
+                <div class="ds-logos">
+                    <span>Google</span>
+                    <span>Microsoft</span>
+                    <span>IBM</span>
+                    <span>Amazon</span>
+                    <span>Meta</span>
+                    <span>Stanford</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="ds-footer" id="contact">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="brand-text">SkillLoop</span>
+                <p>Turn raw data into real insight — step by step.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="#courses">Courses</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-note">
+                <p>© <span id="year"></span> SkillLoop. All rights reserved.</p>
+            </div>
+        </div>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+</html>

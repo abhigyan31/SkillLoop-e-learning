@@ -1,1 +1,1 @@
-# SkillLoop-e-learning
+# skillLoop-demo

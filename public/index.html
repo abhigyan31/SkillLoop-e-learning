@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sign In — SkillLoop</title>
+
+  <!-- optional global styles -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- page-specific -->
+  <link rel="stylesheet" href="css/login.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- blurred background from Unsplash (no local images) -->
+  <div class="login-bg" aria-hidden="true"></div>
+
+  <header class="login-header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <svg width="36" height="36" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient>
+            </defs>
+            <circle cx="20" cy="20" r="18" fill="none" stroke="url(#lg2)" stroke-width="3"/>
+            <path d="M 15 20 Q 20 10, 25 20 T 35 20" fill="none" stroke="url(#lg2)" stroke-width="3"/>
+          </svg>
+          <span>SkillLoop</span>
+        </div>
+
+        <div class="nav-actions">
+          <a href="index.html" class="link-muted">Home</a>
+          <a href="signup.html" class="btn btn-outline small">Sign Up</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="login-main">
+    <div class="container center-wrap">
+      <div class="glass-card">
+        <div class="card-inner">
+          <div class="card-left">
+            <h1>Welcome back</h1>
+            <p class="lead">Sign in to continue your learning journey.</p>
+
+            <form id="loginForm" class="form" novalidate>
+              <label>
+                <span>Email</span>
+                <input name="email" id="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+              </label>
+
+              <label>
+                <span>Password</span>
+                <input name="password" id="password" type="password" autocomplete="current-password" required>
+              </label>
+
+              <div class="row-between">
+                <label class="checkbox-label-small">
+                  <input type="checkbox" id="rememberMe">
+                  <span>Remember me</span>
+                </label>
+                <a href="#" class="link-muted small">Forgot password?</a>
+              </div>
+
+              <div class="actions">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+
+              <p class="small muted">Don't have an account? <a href="signup.html">Create one</a></p>
+            </form>
+          </div>
+
+          <div class="card-right">
+            <!-- Unsplash illustration only (no local fallbacks) -->
+            <img
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+              alt="students learning"
+              class="card-illustration"
+            >
+            <div class="illustration-text">
+              <h3>Get back to learning</h3>
+              <p class="muted">Continue your courses, pick up where you left off and earn certificates.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="login-footer">
+    <div class="container">
+      <small>&copy; <span id="copyYear"></span> SkillLoop</small>
+    </div>
+  </footer>
+
+  <script src="js/login.js" defer></script>
+</body>
+</html>

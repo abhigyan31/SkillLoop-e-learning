@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillLoop | Learn Mobile Development</title>
+
+    <!-- Main site stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Mobile Development page specific stylesheet -->
+    <link rel="stylesheet" href="css/mobile-development.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">
+                <div class="logo-circle">
+                    <span class="logo-wave">~</span>
+                </div>
+                <span class="brand-text">SkillLoop</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#courses" class="nav-link">Courses</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="md-main">
+        <!-- HERO SECTION -->
+        <section class="md-hero" id="home">
+            <div class="container md-hero-container">
+                <div class="md-hero-content">
+                    <h1>Learn Mobile Development from Scratch</h1>
+                    <p>
+                        Build apps for Android & iOS using modern tools, clear explanations
+                        and real-world examples designed for students.
+                    </p>
+                    <div class="md-hero-actions">
+                        <a href="#videos" class="btn primary-btn">Start Learning Mobile Dev</a>
+                        <a href="#courses" class="btn ghost-btn">Explore Mobile Paths</a>
+                    </div>
+                    <div class="md-hero-meta">
+                        <span>✔ Beginner friendly</span>
+                        <span>✔ Real apps & examples</span>
+                        <span>✔ Android & iOS workflow</span>
+                    </div>
+                </div>
+
+                <div class="md-hero-card">
+                    <h2>Featured Lesson</h2>
+                    <p>Introduction to Mobile Development</p>
+                    <div class="md-video-wrapper">
+                        <iframe
+                            src="https://www.youtube.com/embed/mxC-7i1oGQQ"
+                            title="Introduction to Mobile Development"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <a href="https://www.youtube.com/watch?v=mxC-7i1oGQQ"
+                       target="_blank"
+                       class="inline-link">
+                        Watch on YouTube ↗
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY SECTION -->
+        <section class="md-section md-features" id="about">
+            <div class="container">
+                <h2 class="section-title">Why Learn Mobile Development with SkillLoop?</h2>
+                <p class="section-subtitle">
+                    Go from “I use apps” to “I can build apps” with structured, student-friendly lessons.
+                </p>
+
+                <div class="md-features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>Android Apps</h3>
+                        <p>Learn how Android apps are built with Kotlin and Android Studio.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍎</div>
+                        <h3>iOS Apps</h3>
+                        <p>Understand how Swift and Xcode are used to build iOS experiences.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Cross-Platform</h3>
+                        <p>Explore Flutter or React Native to build once and run everywhere.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>UI/UX for Mobile</h3>
+                        <p>Design screens that feel natural on small touch devices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MOBILE DEV PATHS -->
+        <section class="md-section md-paths" id="courses">
+            <div class="container">
+                <h2 class="section-title">Mobile Development Learning Paths</h2>
+                <p class="section-subtitle">
+                    Follow a roadmap based on your goal — Android, iOS or cross-platform.
+                </p>
+
+                <div class="md-paths-grid">
+                    <div class="path-card">
+                        <h3>Android Developer</h3>
+                        <p>Start with the basics of Android and grow to publishing apps.</p>
+                        <ul>
+                            <li>Kotlin fundamentals</li>
+                            <li>Android Studio projects</li>
+                            <li>Publishing to Play Store</li>
+                        </ul>
+                    </div>
+                    <div class="path-card">
+                        <h3>iOS Developer</h3>
+                        <p>Learn how to build apps for the Apple ecosystem.</p>
+                        <ul>
+                            <li>Swift basics</li>
+                            <li>SwiftUI interface building</li>
+                            <li>App Store submission</li>
+                        </ul>
+                    </div>
+                    <div class="path-card">
+                        <h3>Cross-Platform Developer</h3>
+                        <p>Use one codebase to target both Android and iOS.</p>
+                        <ul>
+                            <li>Flutter or React Native</li>
+                            <li>Working with APIs</li>
+                            <li>Using device features</li>
+                        </ul>
+                    </div>
+                    <div class="path-card">
+                        <h3>Game & Interactive Apps</h3>
+                        <p>Build engaging mobile games and visual experiences.</p>
+                        <ul>
+                            <li>Unity basics</li>
+                            <li>2D/3D game concepts</li>
+                            <li>Performance & optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIDEO LESSONS -->
+        <section class="md-section md-videos" id="videos">
+            <div class="container">
+                <h2 class="section-title">Free Mobile Dev Video Lessons</h2>
+                <p class="section-subtitle">
+                    Short videos to quickly build intuition for app development.
+                </p>
+
+                <div class="md-videos-grid">
+                    <article class="video-card">
+                        <h3>Kotlin for Android</h3>
+                        <p>Learn the modern language used for Android apps.</p>
+                        <a href="https://www.youtube.com/watch?v=F9UC9DY-vIU"
+                           target="_blank"
+                           class="btn link-btn">
+                            Watch Lesson
+                        </a>
+                    </article>
+
+                    <article class="video-card">
+                        <h3>Android Basics</h3>
+                        <p>Understand Activities, layouts and basic navigation.</p>
+                        <a href="https://www.youtube.com/watch?v=mXjZQX3UzOs"
+                           target="_blank"
+                           class="btn link-btn">
+                            Watch Lesson
+                        </a>
+                    </article>
+
+                    <article class="video-card">
+                        <h3>Swift for iOS</h3>
+                        <p>An introduction to Swift and iOS app development.</p>
+                        <a href="https://www.youtube.com/watch?v=09TeUXjzpKs"
+                           target="_blank"
+                           class="btn link-btn">
+                            Watch Lesson
+                        </a>
+                    </article>
+
+                    <article class="video-card">
+                        <h3>Flutter Crash Course</h3>
+                        <p>Build a cross-platform app using Flutter and Dart.</p>
+                        <a href="https://www.youtube.com/watch?v=VPvVD8t02U8"
+                           target="_blank"
+                           class="btn link-btn">
+                            Watch Lesson
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRUSTED SECTION -->
+        <section class="md-section md-trusted">
+            <div class="container">
+                <h2 class="section-title">Build Apps People Actually Use</h2>
+                <p class="section-subtitle">
+                    Mobile developers are needed in startups, big tech, games, fintech and more.
+                </p>
+                <div class="md-logos">
+                    <span>Google</span>
+                    <span>Apple</span>
+                    <span>Spotify</span>
+                    <span>Instagram</span>
+                    <span>Uber</span>
+                    <span>Netflix</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="md-footer" id="contact">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="brand-text">SkillLoop</span>
+                <p>Turn your app ideas into reality — one lesson at a time.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="#courses">Courses</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-note">
+                <p>© <span id="year"></span> SkillLoop. All rights reserved.</p>
+            </div>
+        </div>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+</html>

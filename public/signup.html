@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Create Account — SkillLoop</title>
+
+  <!-- Main site styles (optional) -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Page-specific -->
+  <link rel="stylesheet" href="css/signup.css">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Background hero (visual only) -->
+  <div class="signup-bg" aria-hidden="true"></div>
+
+  <header class="signup-header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <svg width="36" height="36" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient>
+            </defs>
+            <circle cx="20" cy="20" r="18" fill="none" stroke="url(#lg)" stroke-width="3"/>
+            <path d="M 15 20 Q 20 10, 25 20 T 35 20" fill="none" stroke="url(#lg)" stroke-width="3"/>
+          </svg>
+          <span>SkillLoop</span>
+        </div>
+
+        <div class="nav-actions">
+          <a href="index.html" class="btn btn-outline small">Sign In</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="signup-main">
+    <div class="container center-wrap">
+      <div class="glass-card">
+        <div class="card-inner">
+          <div class="card-left">
+            <h1>Create your account</h1>
+            <p class="lead">Join thousands of learners — access courses, certificates and hands-on projects.</p>
+
+            <form id="signupForm" class="form" novalidate>
+              <div class="two-col">
+                <label>
+                  <span>First name *</span>
+                  <input name="firstName" id="firstName" type="text" autocomplete="given-name" required>
+                </label>
+                <label>
+                  <span>Last name *</span>
+                  <input name="lastName" id="lastName" type="text" autocomplete="family-name" required>
+                </label>
+              </div>
+
+              <label>
+                <span>Email *</span>
+                <input name="email" id="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+              </label>
+
+              <div class="two-col">
+                <label>
+                  <span>Password *</span>
+                  <input name="password" id="password" type="password" autocomplete="new-password" minlength="8" required>
+                </label>
+                <label>
+                  <span>Confirm password *</span>
+                  <input name="confirmPassword" id="confirmPassword" type="password" autocomplete="new-password" required>
+                </label>
+              </div>
+
+              <label class="checkbox-label">
+                <input type="checkbox" id="agreeTerms" required>
+                <span>I agree to the <a href="#" target="_blank">Terms</a> and <a href="#" target="_blank">Privacy</a>.</span>
+              </label>
+
+              <div class="actions">
+                <button type="submit" class="btn btn-primary">Create account</button>
+              </div>
+
+              <p class="small muted">Already have an account? <a href="index.html">Sign in</a></p>
+            </form>
+          </div>
+
+          <div class="card-right" aria-hidden="false">
+            <!-- Unsplash illustration (primary). If it fails, fallback to uploaded local file: /mnt/data/s2.png -->
+            <img
+              src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=80"
+              onerror="this.onerror=null;this.src='/mnt/data/s2.png';"
+              alt="students learning"
+              class="card-illustration"
+            >
+            <div class="illustration-text">
+              <h3>Learn at your own pace</h3>
+              <p class="muted">Curated paths, hands-on projects and certificates from top instructors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- subtle caption / credit for background (visually hidden) -->
+      <p class="visually-hidden">Background photo from Unsplash</p>
+    </div>
+  </main>
+
+  <footer class="signup-footer">
+    <div class="container">
+      <small>&copy; <span id="copyYear"></span> SkillLoop — All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="js/signup.js" defer></script>
+</body>
+</html>
